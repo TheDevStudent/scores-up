@@ -1,0 +1,10 @@
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+.enchantier {
+  color: black;
+  background-color: lemonchiffon;
+  cursor: wait;
+}
