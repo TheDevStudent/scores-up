@@ -9,8 +9,10 @@ class NavBar extends Component {
     render() { 
         return ( 
             <nav className="navbar navbar-light bg-light">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#"><img className="m-2" src={logo} style={{ width: 30 }}></img>Scores Up</a>
+                <div className="navbar-items">
+                    <a className="navbar-brand navbar-item" href='./'><img className="m-2" src={logo} style={{ width: 30 }} alt='site logo'></img>Scores Up</a>
+                    <a className="navbar-item" href='./dashboard'>Dashboard</a>
+                    <a className="navbar-item" href='./new-game'>New Game</a>
                 </div>
             </nav>
          );

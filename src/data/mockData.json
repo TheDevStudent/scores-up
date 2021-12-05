@@ -1,0 +1,46 @@
+[
+	{
+		"id" : 1,
+		"playerName": "Player 1",
+		"gamesPlayed": 10,
+		"wins": 8,
+		"losses": 2,
+		"winRatio": 0.8,
+		"GF": 48,
+		"GA": 12,
+		"GD": 36
+	},
+	{
+		"id" : 2,
+		"playerName": "Player 2",
+		"gamesPlayed": 12,
+		"wins": 6,
+		"losses": 6,
+		"winRatio": 0.8,
+		"GF": 30,
+		"GA": 12,
+		"GD": 18
+	},
+	{
+		"id" : 3,
+		"playerName": "Player 3",
+		"gamesPlayed": 10,
+		"wins": 2,
+		"losses": 8,
+		"winRatio": 0.8,
+		"GF": 12,
+		"GA": 30,
+		"GD": -18
+	},
+	{
+		"id" : 4,
+		"playerName": "Player 4",
+		"gamesPlayed": 12,
+		"wins": 4,
+		"losses": 8,
+		"winRatio": 0.8,
+		"GF": 12,
+		"GA": 48,
+		"GD": -36
+	}
+]

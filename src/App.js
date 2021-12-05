@@ -1,10 +1,19 @@
 import './App.css';
+import DashBoard from './DashBoard';
+import NewGame from './NewGame';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
+
   return (
-    <div className="App">
-      <div className="enchantier">En chantier</div>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/dashboard" element={<DashBoard/>} />
+          <Route path="/new-game" element={<NewGame/>} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
